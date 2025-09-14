@@ -5,35 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive_Website</title>
     <link rel="stylesheet" href="Responsive_web.css" />
+    <link rel="stylesheet" href="Responsive.css" />
   </head>
   <body class="work-sans-font">
     <header>
       <nav class="nav">
         <div class="navber display-flex">
           <h1 class="nav-title">Fitness</h1>
-          <ul class="nav-links display-flex">
+          <ul class="nav-links display-flex" id="nav-links">
             <li><a href="" class="bg">Home</a></li>
             <li><a href="">Service</a></li>
             <li><a href="">Contact</a></li>
             <li><a href="">about</a></li>
           </ul>
+          <div class="menu-btn" id="menu-btn">&#9776;</div>
         </div>
         <div class="nav-body display-flex">
           <div class="nav-text">
-            <span class="spans">
-              Get body in <span class="spanss"> shape</span>
-              & stay healthy
-            </span>
-            <p class="light-gray">
-              A huge selection of health and fitness content, healthy recipes
-              and transformation stories to help you get fit and stay fit!
-            </p>
-            <button class="btn">Join Club Now!</button>
-            <button class="d-a btn">Download App</button>
+            <div class="nav-textss">
+              <span class="spans">
+                Get body in <span class="spanss"> shape</span>
+                & stay healthy
+              </span>
+              <p class="light-gray">
+                A huge selection of health and fitness content, healthy recipes
+                and transformation stories to help you get fit and stay fit!
+              </p>
+            </div>
+            <div class="display-flex">
+              <button class="btn">Join Club Now!</button>
+              <button class="d-a btn">Download App</button>
+            </div>
           </div>
           <!-- shadow -->
           <div class="shadow display-flex-2">
-            <div class="red-div"></div>
+            <div class="red-div">
+              <div class="white-tringle"></div>
+            </div>
             <div class="box-text">
               <h2>300+</h2>
               <p class="light-gray padding">video tutorial</p>
@@ -51,5 +59,6 @@
         </div>
       </nav>
     </header>
+    <script src="Responsive.js"></script>
   </body>
 </html>
