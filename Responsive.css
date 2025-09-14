@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   body {
     margin: 0px;
   }
@@ -11,14 +11,14 @@
     color: rgba(255, 255, 255, 1);
   }
   .nav-links {
-    width: 210px;
+    width: 215px;
     position: absolute;
     top: 56px;
     right: 18px;
     left: 18px;
     flex-direction: column;
     gap: 12px;
-    background: rgba(30, 30, 30, 0.7);
+    /* background: rgba(30, 30, 30, 0.7); */
     color: rgba(255, 255, 255, 1);
     padding: 4px;
     border-radius: 10px;
@@ -47,44 +47,102 @@
     height: 100%;
   }
   .nav-body {
-    width: calc(100%-opx);
+    width: calc(100%-0px);
     display: flex;
     flex-direction: column;
     /* margin: 0px 150px; */
     /* width: 100%; */
   }
   .nav-images img {
-    width: 315px;
+    width: 284px;
     height: auto;
   }
   .nav-text {
-    width: 304px;
+    width: 290px;
     height: auto;
     padding: 2px 15px;
   }
   .nav-textss {
-    width: 210px;
+    width: 185px;
     height: auto;
     margin-left: 10px;
   }
   .spans {
     width: 150px;
     height: auto;
-    font-size: 37px;
+    font-size: 30px;
     font-weight: 700;
   }
   .display-flex-2 {
     width: 150px;
     height: 100px;
     position: absolute;
-    top: 73%;
-    transform: translateX(-40%);
+    top: 68%;
+    transform: translateX(-35%);
   }
   .shadow-2 {
-    width: 150px;
+    width: 140px;
     height: 100px;
     position: absolute;
-    left: 53%;
+    left: 52%;
     top: 50%;
+  }
+}
+
+/* tablate */
+
+@media (min-width: 577px) and (max-width: 991px) {
+  body {
+    margin: 0px;
+  }
+
+  /* heading-part-responsive */
+  .nav {
+    height: 100%;
+  }
+  .navber {
+    padding: 0px 55px;
+  }
+  .nav-body {
+    width: calc(100%-0px);
+    display: flex;
+    flex-direction: column;
+    /* margin: 0px 150px; */
+    /* width: 100%; */
+  }
+  .flex-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px 20px;
+  }
+  .nav-images img {
+    width: 284px;
+    height: auto;
+  }
+  .nav-text {
+    width: 600px;
+    height: auto;
+    padding: 2px 15px;
+  }
+  .nav-textss {
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+  }
+  .spans {
+    font-size: 75px;
+    font-weight: 700;
+  }
+  .display-flex-2 {
+    position: absolute;
+    top: 88%;
+    transform: translateX(0%);
+  }
+  .shadow-2 {
+    position: absolute;
+    left: 52%;
+    top: 60%;
   }
 }
