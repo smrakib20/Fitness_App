@@ -15,7 +15,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+.display-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
 .bg {
   background-color: rgba(230, 83, 60, 1);
   border-radius: 15px;
@@ -136,4 +140,43 @@ h2 {
   height: 15px;
   background-color: white;
   clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
+/* section-1 */
+.bodys {
+  background: rgb(22, 22, 22);
+}
+h3 {
+  color: white;
+}
+.section-1 {
+  width: 100%;
+  padding: 45px 0px;
+}
+.sec-hed {
+  width: 48%;
+}
+.guidline {
+  width: 300px;
+  height: 420px;
+  padding: 30px 0px;
+}
+.img-text {
+  width: 200px;
+  height: 370px;
+}
+.guidline img {
+  border-radius: 50%;
+}
+.display-flex-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-1 p {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }

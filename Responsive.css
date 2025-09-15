@@ -87,6 +87,14 @@
     left: 52%;
     top: 50%;
   }
+  /* section-1 */
+  .guidlines {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sec-hed {
+    width: 80%;
+  }
 }
 
 /* tablate */
