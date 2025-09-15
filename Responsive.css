@@ -153,4 +153,11 @@
     left: 52%;
     top: 60%;
   }
+  .guidlines {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sec-hed {
+    width: 80%;
+  }
 }
